@@ -16,7 +16,7 @@ enum Operation {
   CREDIT
 }
 
-type category {
+type Category {
   id: ID! @unique
   user: User
   description: String!
