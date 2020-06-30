@@ -1,7 +1,7 @@
 {
   "name": "vue-finances-back",
   "version": "1.0.0",
-  "description": "",
+  "description": "Backend utilizando graphql, prisma, postgres e docker",
   "main": "index.js",
   "scripts": {
     "start": "node src/index",
@@ -12,7 +12,7 @@
     "url": "git+https://github.com/GuiBalestra/vue-finances-back.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Guilherme Taveira",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/GuiBalestra/vue-finances-back/issues"
@@ -20,6 +20,7 @@
   "homepage": "https://github.com/GuiBalestra/vue-finances-back#readme",
   "dependencies": {
     "graphql-yoga": "1.17.4",
+    "prisma-binding": "2.3.16",
     "prisma-client-lib": "1.28.3"
   },
   "devDependencies": {
